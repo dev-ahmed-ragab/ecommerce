@@ -1,5 +1,5 @@
 import { Badge, Container, Nav, Navbar } from 'react-bootstrap';
-
+import HeaderBasket from '../../ecommerce/HeaderBasket/HeaderBasket';
 import styles from './styles.module.css';
 // import { NavLink } from 'react-router-dom';
 const { headerContainer, headerLogo } = styles;
@@ -11,7 +11,7 @@ const Header = () => {
           <span>our</span> <Badge bg="info">Ecom</Badge>
         </h1>
 
-        {/* <HeaderBasket /> */}
+        <HeaderBasket />
       </div>
       <Navbar
         expand="lg"
